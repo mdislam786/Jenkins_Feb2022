@@ -20,10 +20,10 @@ public class LoginPageTest extends TestBase{
 	
 	@Test
 	public void loginTest() throws Throwable {
-		loginPageObj.enterUserName("demo@techfios.com");
+		loginPageObj.enterUserName("demo@techfios.com");		
 		loginPageObj.enterPassword("abc123");
 		loginPageObj.clickSignInButton();
-		System.out.println("Print something");
+		System.out.println("Print Something");
 		takeScreenshot(driver);		
 	}
 	
